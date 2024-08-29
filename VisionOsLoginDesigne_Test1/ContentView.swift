@@ -30,8 +30,9 @@ struct ContentView: View {
                 Button(action: {}, label: {
                     Text("Button")
                 })
-                Image("bg_1")
+                Image("bg-2")
                 Stepper("Stepper", value: $stepper, in: 0...2, step: 0.5).frame(maxWidth: 200)
+                Image(systemName: "person")
             }
         }
     }
