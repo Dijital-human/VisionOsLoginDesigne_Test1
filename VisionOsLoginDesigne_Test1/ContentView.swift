@@ -16,16 +16,20 @@ struct ContentView: View {
                 .saturation(2.0)
                 .clipShape(RoundedRectangle(cornerRadius: 50.0))
             RoundedRectangle(cornerRadius: 50.0).fill(.white.opacity(0.2))
-            HStack(alignment:.bottom,spacing: 30){
-                Text("LoGo")
-                
-                    .monospaced()
-                Image(systemName: "apple.logo")
-                Text("Salam Dunya")
+            VStack{
+                HStack(alignment:.bottom,spacing: 30){
+                    Text("LoGo")
+                    
+                        .monospaced()
+                    Image(systemName: "apple.logo")
+                    Text("Salam Dunya")
+                }
+                .font(.extraLargeTitle)
+                .frame(maxWidth: .infinity)
+                Button(action: {}, label: {
+                    Text("Button")
+                })
             }
-            .font(.extraLargeTitle)
-            .frame(maxWidth: .infinity)
-
         }
     }
 }
