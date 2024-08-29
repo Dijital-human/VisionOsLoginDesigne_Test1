@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var stepper = 0.0
     var body: some View {
         ZStack(alignment:.top) {
             Image("bg-1")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .saturation(2.0)
+                .saturation(stepper)
                 .clipShape(RoundedRectangle(cornerRadius: 50.0))
             RoundedRectangle(cornerRadius: 50.0).fill(.white.opacity(0.2))
             VStack{
@@ -30,6 +31,7 @@ struct ContentView: View {
                     Text("Button")
                 })
                 Image("bg_1")
+                Stepper("Stepper", value: $stepper, in: 0...2, step: 0.5).frame(maxWidth: 200)
             }
         }
     }
