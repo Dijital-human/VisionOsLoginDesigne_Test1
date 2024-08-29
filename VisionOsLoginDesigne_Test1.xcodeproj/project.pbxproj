@@ -12,6 +12,7 @@
 		4CE24CDA2C80099E00042E38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE24CD92C80099E00042E38 /* ContentView.swift */; };
 		4CE24CDC2C80099E00042E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE24CDB2C80099E00042E38 /* Assets.xcassets */; };
 		4CE24CDF2C80099E00042E38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE24CDE2C80099E00042E38 /* Preview Assets.xcassets */; };
+		4CE24CE72C8013AB00042E38 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE24CE62C8013AB00042E38 /* NewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4CE24CDB2C80099E00042E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CE24CDE2C80099E00042E38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4CE24CE02C80099E00042E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE24CE62C8013AB00042E38 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4CE24CD72C80099E00042E38 /* VisionOsLoginDesigne_Test1App.swift */,
 				4CE24CD92C80099E00042E38 /* ContentView.swift */,
+				4CE24CE62C8013AB00042E38 /* NewView.swift */,
 				4CE24CDB2C80099E00042E38 /* Assets.xcassets */,
 				4CE24CE02C80099E00042E38 /* Info.plist */,
 				4CE24CDD2C80099E00042E38 /* Preview Content */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE24CE72C8013AB00042E38 /* NewView.swift in Sources */,
 				4CE24CDA2C80099E00042E38 /* ContentView.swift in Sources */,
 				4CE24CD82C80099E00042E38 /* VisionOsLoginDesigne_Test1App.swift in Sources */,
 			);
