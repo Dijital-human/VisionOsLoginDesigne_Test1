@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import RealityKit
 struct NewView: View {
     var body: some View {
         ZStack{

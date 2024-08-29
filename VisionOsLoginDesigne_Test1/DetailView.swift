@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import RealityKit
 struct DetailView: View {
     var body: some View {
         ZStack{
@@ -18,6 +18,7 @@ struct DetailView: View {
                 ForEach(1..<10){i in
                     
                     Text("Baslangic \(i)")
+                    Text("Salam Dunya")
                 }
             }
         }
