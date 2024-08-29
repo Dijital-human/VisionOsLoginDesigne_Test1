@@ -29,6 +29,7 @@ struct ContentView: View {
                 Button(action: {}, label: {
                     Text("Button")
                 })
+                Image("bg_1")
             }
         }
     }
