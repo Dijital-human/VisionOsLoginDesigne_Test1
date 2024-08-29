@@ -6,18 +6,27 @@
 //
 
 import SwiftUI
-import RealityKit
-import RealityKitContent
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+        ZStack(alignment:.top) {
+            Image("bg-1")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .saturation(2.0)
+                .clipShape(RoundedRectangle(cornerRadius: 50.0))
+            RoundedRectangle(cornerRadius: 50.0).fill(.white.opacity(0.2))
+            HStack(alignment:.bottom,spacing: 30){
+                Text("LoGo")
+                
+                    .monospaced()
+                Image(systemName: "apple.logo")
+                Text("Salam Dunya")
+            }
+            .font(.extraLargeTitle)
+            .frame(maxWidth: .infinity)
 
-            Text("Hello, world!")
         }
-        .padding()
     }
 }
 
